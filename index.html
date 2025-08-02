@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Hoàng Ngọc Anh</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'orange-custom': '#FF8C42',
+                        'blue-light': '#A8DADC',
+                        'blue-custom': '#457B9D',
+                    },
+                    fontFamily: {
+                        jet: ['"JetBrains Mono"', 'monospace']
+                        // 'sans': ['Arial', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-50 font-sans">
+    <div class="max-w-4xl mx-auto bg-white shadow-xl">
+        <!-- Header Section -->
+        <div class="bg-gradient-to-r from-blue-light to-blue-200 p-8 rounded-t-lg">
+            <div class="flex flex-col md:flex-row items-center gap-6">
+                <div class="w-32 h-32 rounded-full overflow-hidden border-4 border-white shadow-lg flex-shrink-0">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='128' viewBox='0 0 128 128'%3E%3Crect width='128' height='128' fill='%23ddd'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' font-size='18' fill='%23666'%3EAvatar%3C/text%3E%3C/svg%3E"
+                        alt="Hoàng Ngọc Anh" class="w-full h-full object-cover">
+                </div>
+                <div class="text-center md:text-left">
+                    <h1 class="text-4xl font-bold text-orange-custom mb-2">HOÀNG NGỌC ANH</h1>
+                    <p class="text-xl text-blue-custom font-semibold">Kỹ sư phát triển phần mềm - FullStack</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-8 space-y-8">
+            <!-- Personal Information & Career Objective -->
+            <div class="grid md:grid-cols-5 gap-8">
+                <!-- Personal Information -->
+                <div class="md:col-span-2">
+                    <div
+                        class="bg-blue-light rounded-lg p-6 shadow-lg transition duration-300 hover:shadow-2xl hover:-translate-y-1">
+                        <h2
+                            class="text-xl font-bold text-orange-custom mb-4 bg-yellow-200 px-3 py-1 rounded inline-block">
+                            THÔNG TIN CÁ NHÂN</h2>
+                        <div class="space-y-3">
+                            <div class="flex items-center gap-3">
+                                <i class="fas fa-calendar text-orange-custom"></i>
+                                <span>20/02/1998</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fas fa-phone text-orange-custom"></i>
+                                <span>0337207999</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fas fa-envelope text-orange-custom"></i>
+                                <span>hoangngocann98@gmail.com</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fas fa-map-marker-alt text-orange-custom"></i>
+                                <span>Quận Đống Đa, TP Hà Nội</span>
+                            </div>
+                            <div class="flex items-start gap-3 mt-4">
+                                <i class="fas fa-link text-orange-custom mt-1"></i>
+                                <div>
+                                    <p class="font-semibold">Ảnh giải thưởng, chứng chỉ:</p>
+                                    <a href="https://drive.google.com/drive/folders/1cM_JkQ6YxwpDpMpXkw85hPcEgVctb8Q6"
+                                        class="text-blue-600 text-sm break-all hover:underline">
+                                        drive.google.com/drive/folders/1cM_JkQ6YxwpDpMpXkw85hPcEgVctb8Q6
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Career Objective & Education -->
+                <div class="md:col-span-3 space-y-6">
+                    <!-- Education -->
+                    <div
+                        class="bg-gradient-to-r from-orange-100 to-blue-50 rounded-lg p-6 shadow-lg transition duration-300 hover:shadow-2xl hover:-translate-y-1 min-h-[316px]">
+                        <h2 class="text-xl font-bold text-white mb-4 bg-orange-custom px-3 py-1 rounded inline-block">
+                            HỌC VẤN</h2>
+                        <div class="flex items-start gap-4">
+                            <i class="fas fa-graduation-cap text-blue-500 text-2xl mt-1"></i>
+                            <div>
+                                <div class="flex flex-col md:flex-row md:items-center gap-2 mb-2">
+                                    <h3 class="font-bold text-lg">Đại Học Bách Khoa Hà Nội</h3>
+                                    <span class="text-gray-600">2016 - 2021</span>
+                                </div>
+                                <p class="text-gray-700 mb-2">Chuyên ngành Điện tử - Viễn thông</p>
+                                <div class="text-sm text-gray-600">
+                                    <p>GPA: 3.18/4.0</p>
+                                    <p>Toeic: 550</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Career Objective -->
+                </div>
+            </div>
+            <div class="md:col-span-5">
+                <div
+                    class="bg-blue-light rounded-lg p-6 shadow-lg transition duration-300 hover:shadow-2xl hover:-translate-y-1 h-[316px] ">
+                    <h2 class="text-xl font-bold text-orange-custom mb-4 bg-yellow-200 px-3 py-1 rounded inline-block">
+                        MỤC TIÊU NGHỀ NGHIỆP</h2>
+                    <p class="text-gray-700 leading-relaxed">
+                        Với hơn kinh nghiệm 4 năm trong vai trò phát triển phần mềm tại Phòng ERP Trung tâm CNTT -
+                        Viettel Constructions, tôi đã tích lũy được nhiều kỹ năng quan trọng trong việc sử dụng các công
+                        nghệ mới nhất, khai các giải pháp công nghệ phần mềm. Tôi có khả năng phát triển hệ thống theo
+                        hướng microservices, đảm bảo tính linh hoạt, khả năng mở rộng và bảo trì để đáng cho các ứng
+                        dụng.
+                        Ngoài ra, tôi cũng đã phát triển các kỹ năng quản lý dự án, làm việc nhóm và luôn nỗ lực học hỏi
+                        để nâng cao năng lực chuyên môn. Tôi mong muốn trở thành Devlead để có thể đóng góp vào
+                        các dự án phức tạp, mang lại giá trị thiết thực cho tổ chức, và không ngừng cải thiện quy trình
+                        phát triển để đạt hiệu suất cao hơn. Đồng thời, tôi cũng hướng đến việc phát triển kỹ năng lãnh
+                        đạo và quản lý để có thể dẫn dắt các nhóm phát triển phần mềm một cách hiệu quả, thúc đẩy sự đổi
+                        mới và phát triển bền vững cho tổ chức.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Work Experience -->
+            <div
+                class="bg-gradient-to-r from-blue-light to-blue-200 rounded-lg p-6 shadow-lg transition duration-300 hover:shadow-2xl hover:-translate-y-1">
+                <h2 class="text-xl font-bold text-white mb-6 bg-orange-custom px-3 py-1 rounded inline-block">KINH
+                    NGHIỆM LÀM VIỆC</h2>
+
+                <div class="flex items-start gap-4">
+                    <i class="fas fa-briefcase text-blue-500 text-2xl mt-1"></i>
+                    <div class="flex-1">
+                        <div class="flex flex-col md:flex-row md:items-center gap-2 mb-2">
+                            <h3 class="font-bold text-lg">Viettel Constructions</h3>
+                            <span class="text-gray-600">07/2021 - đến nay</span>
+                        </div>
+                        <p class="font-semibold text-blue-700 mb-4">Phòng phát triển ERP</p>
+
+                        <!-- Detailed Project Experience -->
+                        <div class="space-y-4">
+                            <div>
+                                <h4 class="font-semibold text-orange-custom">• Phát triển phần mềm tài chính</h4>
+                                <p class="text-sm text-gray-700 ml-4">
+                                    Phát triển phần mềm tài chính với Java + Adempiere + ZK, và tài chính 2.0 Spring
+                                    boot + Angular theo các
+                                    phiêu yêu cầu cấp từ phòng tài chính và 63 chi nhánh, bao gồm các phần hệ:
+                                </p>
+                                <ul class="text-sm text-gray-700 ml-8 mt-2 space-y-1">
+                                    <li>◦ Kế toán phải thu</li>
+                                    <li>◦ Xây dựng mô hình Hạch toán 3 cấp: 63 chi nhánh, phòng ban, tài chính TCT cho
+                                        các module doanh thu như: Doanh thu bán dịch vụ, doanh thu bán hàng, doanh thu
+                                        xuất hóa đơn, doanh thu hạ tầng cho thuê,...</li>
+                                    <li>◦ Kế toán phải trả</li>
+                                    <li>◦ Xây dựng lương hạch toán 3 cấp cho chi nhánh thanh toán như: Bảng tổng hợp
+                                        thanh toán, Chi phí Hạ tầng cho thuế, chi phí thuế mặt băng vị trí, vận
+                                        phòng,...</li>
+                                    <li>◦ Kế toán kho</li>
+                                    <li>◦ Hạch toán phiếu nhập xuất kho, quyết toán hàng hóa lên số hạch toán. Phân bổ
+                                        cộng cụ, dụng cụ</li>
+                                    <li>◦ Kế toán ngân quỹ</li>
+                                    <li>◦ Xây dựng luồng hạch toán cho Ủy nhiệm thu, ủy nhiệm chi, Phiếu thu, phiếu chi,
+                                        đề nghị thu tiền cho chi nhánh. Liên kết các ngân hàng để xem biến động số dư,
+                                        tiền vào, tiền ra cho kế toán ngân quỹ</li>
+                                    <li>◦ Kế toán tổng hợp</li>
+                                    <li>◦ Xây dựng chức năng hạch toán kết chuyển doanh thu, kết chuyển chi phí. Xây
+                                        dựng các báo cáo tài chính năm, báo cáo sản xuất kinh doanh, báo cáo tuổi nợ
+                                        doanh thu - chi phí,...</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h4 class="font-semibold text-orange-custom">• Phát triển phần mềm truyền thông công ty
+                                </h4>
+                                <p class="text-sm text-gray-700 ml-4">
+                                    Dung hệ thống web online đầu tiên có đồng thưởng niền cho hội đồng quản trị tích hợp
+                                    Zoom
+                                    online, EKYC, Google FireBase, E-vote, E-meeting,...
+                                </p>
+                                <p class="text-sm text-gray-700 ml-4">
+                                    Phát triển web truyền thông nội bộ (nguoidonghanh.viettel.vn) và kênh chính thức của
+                                    công ty
+                                    (viettelconstruction.com.vn) sử dụng ngôn ngữ PHP + Symfony + Wordpress nhằm mục
+                                    đích truyền bá
+                                    văn hóa doanh nghiệp và cuộc thi cho các cán bộ công nhân viên
+                                </p>
+                            </div>
+
+                            <div>
+                                <h4 class="font-semibold text-orange-custom">• Phát triển phần mềm quản lý nội bộ</h4>
+                                <p class="text-sm text-gray-700 ml-4">
+                                    Sử dụng công nghệ java + angularjs phát triển các chức năng để quản lý nội bộ như
+                                    quản lý
+                                    khen thường, quản lý xe cơ, quản lý thưởng phạt, quản lý rủi ro,...
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Other Positions -->
+                        <div class="mt-6 space-y-4">
+                            <div>
+                                <h3 class="font-bold text-lg flex items-center gap-2">
+                                    <i class="fas fa-briefcase text-blue-500"></i>
+                                    VIỆN HÀN LÂM KH&CN VIỆT NAM
+                                    <span class="text-gray-600 text-base">10/2020 - 01/2021</span>
+                                </h3>
+                                <p class="font-semibold text-blue-700">Thực tập sinh</p>
+                                <div class="text-sm text-gray-700 ml-4">
+                                    <p>• Nghiên cứu và phát triển hệ thống IOT – theo dõi và cảnh báo cho vùng sản xuất
+                                        chế Thái Nguyên</p>
+                                    <p>• Thiết kế, và lập trình cho vi xử lý STM32</p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h3 class="font-bold text-lg flex items-center gap-2">
+                                    <i class="fas fa-briefcase text-blue-500"></i>
+                                    Viettel Hight Tech
+                                    <span class="text-gray-600 text-base">07/2020 - 10/2020</span>
+                                </h3>
+                                <p class="font-semibold text-blue-700">Thực tập sinh</p>
+                                <div class="text-sm text-gray-700 ml-4">
+                                    <p>• Làm việc tại phòng xử lý tín hiệu</p>
+                                    <p>• Tìm hiểu kiến trúc và lập trình cho GNodeB lớp vật lý của mạng 5G.</p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h3 class="font-bold text-lg flex items-center gap-2">
+                                    <i class="fas fa-briefcase text-blue-500"></i>
+                                    Tập đoàn VNPT
+                                    <span class="text-gray-600 text-base">07/2019 - 11/2019</span>
+                                </h3>
+                                <p class="font-semibold text-blue-700">Thực tập sinh</p>
+                                <div class="text-sm text-gray-700 ml-4">
+                                    <p>• Tìm hiểu về giao thức giao tiếp không dây TR069</p>
+                                    <p>• Dịch tài liệu, viết báo cáo, làm PowerPoint Semina hàng tuần</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Programming Skills -->
+                <div
+                    class="bg-blue-light rounded-lg p-6 shadow-lg transition duration-300 hover:shadow-2xl hover:-translate-y-1">
+                    <h2 class="text-xl font-bold text-orange-custom mb-4 bg-yellow-200 px-3 py-1 rounded inline-block">
+                        KỸ NĂNG LẬP TRÌNH</h2>
+                    <div class="space-y-3 text-sm">
+                        <p>• Hiểu về cú pháp và cấu trúc chương trình, hướng đối tượng OOP, quản lý bộ nhớ, xử lý ngoại
+                            lệ, đa luồng, giao tiếp API,...</p>
+                        <p>• Có thể triển khai hệ thống hoàn thiện theo mô hình kiến trúc microservice (LB, gateway,
+                            Discovery Consul, ELK Logging, Kafka messageQueue, Config center, Redis Cache, ...)</p>
+                        <p>• Có thể thành thạo và sử dụng các ngôn ngữ để lập trình web như Java, PHP, angular,
+                            angularjs, html, css, js, ...</p>
+                        <p>• Sử dụng tốt các công cụ phát triển</p>
+                        <div class="ml-4 space-y-1">
+                            <p>◦ Quản lý phiên bản hệ thống: Github, GitLab,...</p>
+                            <p>◦ Công cụ phát triển phần mềm: Intellij, eclipse, talend, jasper report,...</p>
+                            <p>◦ Công cụ ảo hóa: docker, aws cloud</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Database Skills -->
+                <div
+                    class="bg-blue-light rounded-lg p-6 shadow-lg transition duration-300 hover:shadow-2xl hover:-translate-y-1">
+                    <h2 class="text-xl font-bold text-orange-custom mb-4 bg-yellow-200 px-3 py-1 rounded inline-block">
+                        KỸ NĂNG DATABASE</h2>
+                    <div class="space-y-2 text-sm">
+                        <p>• Hiểu và sử dụng thành thạo các cơ sở dữ liệu</p>
+                        <p>• SQL: MySQL, Oracle,...</p>
+                        <p>• NoSQL: ElasticSearch, Redis,...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Soft Skills -->
+            <div
+                class="bg-blue-light rounded-lg p-6 shadow-lg transition duration-300 hover:shadow-2xl hover:-translate-y-1">
+                <h2 class="text-xl font-bold text-orange-custom mb-4 bg-yellow-200 px-3 py-1 rounded inline-block">KỸ
+                    NĂNG MỀM</h2>
+                <div class="space-y-2 text-sm">
+                    <p>• Hiểu và nắm rõ quy trình phát triển phần mềm</p>
+                    <p>• Quản lý dự án: Lập kế hoạch, ULNL gia công phần mềm, phân bổ nguồn lực, theo dõi tiến độ, quản
+                        lý chất lượng phần mềm</p>
+                    <p>• Phát triển và duy trì theo mô hình Agile Scrum</p>
+                    <p>• Giao tiếp: Có thể truyền đạt thông tin chính xác và dễ hiểu giữa các thành viên và bên liên
+                        quan</p>
+                </div>
+            </div>
+
+            <!-- Awards and Achievements -->
+            <div class="md:col-span-5 flex flex-row gap-5">
+                <div class="w-1/2">
+                    <div
+                        class="bg-blue-light rounded-lg p-6 shadow-lg transition duration-300 hover:shadow-2xl hover:-translate-y-1">
+                        <h2
+                            class="text-xl font-bold text-orange-custom mb-6 bg-yellow-200 px-3 py-1 rounded inline-block">
+                            DANH HIỆU - GIẢI THƯỞNG</h2>
+                        <div class="space-y-4">
+                            <div class="border-l-4 border-orange-custom pl-4">
+                                <div class="flex justify-between items-start">
+                                    <h3 class="font-bold text-orange-custom">12/2024</h3>
+                                </div>
+                                <p class="text-gray-700">Chiến sĩ thi đua cấp cơ sở 2024</p>
+                            </div>
+                            <div class="border-l-4 border-orange-custom pl-4">
+                                <div class="flex justify-between items-start">
+                                    <h3 class="font-bold text-orange-custom">06/2024</h3>
+                                </div>
+                                <p class="text-gray-700">Giải nhất cuộc thi ngày sáng tạo cấp trung tâm của tổng công ty
+                                    Viettel Công Trình</p>
+                            </div>
+                            <div class="border-l-4 border-orange-custom pl-4">
+                                <div class="flex justify-between items-start">
+                                    <h3 class="font-bold text-orange-custom">05/2024</h3>
+                                </div>
+                                <p class="text-gray-700">Cá nhân xuất sắc văn hóa chất lượng cấp TCT Viettel
+                                    Constructions</p>
+                            </div>
+                            <div class="border-l-4 border-orange-custom pl-4">
+                                <div class="flex justify-between items-start">
+                                    <h3 class="font-bold text-orange-custom">12/2023</h3>
+                                </div>
+                                <p class="text-gray-700">Chiến sĩ thi đua cấp cơ sở 2023</p>
+                            </div>
+                            <div class="border-l-4 border-orange-custom pl-4">
+                                <div class="flex justify-between items-start">
+                                    <h3 class="font-bold text-orange-custom">10/2022</h3>
+                                </div>
+                                <p class="text-gray-700">Nhân viên đào tạo nội bộ xuất sắc TT CNTT - Viettel
+                                    Constructions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/2">
+                    <!-- Certifications -->
+                    <div
+                        class="bg-gradient-to-r from-orange-100 to-blue-50 rounded-lg p-6 shadow-lg transition duration-300 hover:shadow-2xl hover:-translate-y-1 min-h-[484px]">
+                        <h2 class="text-xl font-bold text-white mb-6 bg-orange-custom px-3 py-1 rounded inline-block">
+                            CHỨNG CHỈ</h2>
+                        <div class="space-y-4">
+                            <div class="border-l-4 border-blue-500 pl-4">
+                                <div class="flex justify-between items-start">
+                                    <h3 class="font-bold text-blue-700">10/2024</h3>
+                                </div>
+                                <p class="text-gray-700">Google Cybersecurity - Coursera</p>
+                            </div>
+                            <div class="border-l-4 border-blue-500 pl-4">
+                                <div class="flex justify-between items-start">
+                                    <h3 class="font-bold text-blue-700">09/2024</h3>
+                                </div>
+                                <p class="text-gray-700">Google Project Management - Coursera</p>
+                            </div>
+                            <div class="border-l-4 border-blue-500 pl-4">
+                                <div class="flex justify-between items-start">
+                                    <h3 class="font-bold text-blue-700">09/2024</h3>
+                                </div>
+                                <p class="text-gray-700">Google Data Analytics - Coursera</p>
+                            </div>
+                            <div class="border-l-4 border-blue-500 pl-4">
+                                <div class="flex justify-between items-start">
+                                    <h3 class="font-bold text-blue-700">06/2024</h3>
+                                </div>
+                                <p class="text-gray-700">Chứng chỉ lập trình Java Core - Lập trình java web</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hình ảnh chứng chỉ và giải thưởng -->
+            <div class="slide_chung_chi_giai_thuong p-6 rounded-lg md:col-span-5 bg-gradient-to-r from-blue-light to-blue-200 transition duration-300 hover:shadow-2xl hover:-translate-y-1 ">
+                <div class="w-full m-auto">
+                    <h2 class="text-xl font-bold text-orange-custom mb-6 bg-yellow-200 px-3 py-1 rounded inline-block"> HÌNH ẢNH GIẢI THƯỞNG</h2>
+                </div>
+                <div class="swiper mySwiper w-full">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide flex gap-4">
+                            <div class="w-1/2 relative">
+                                <img src="./image/Không%20có%20tiêu%20đề.jpg" class="w-full object-cover rounded" />
+                                <span class="absolute bottom-0 left-1/2 -translate-x-1/2 transform text-white pb-2 bg-black/60 px-2 rounded text-md">Giải thưởng 1</span>
+                            </div>
+                            <div class="w-1/2 relative">
+                                <img src="./image/Không%20có%20tiêu%20đề.jpg" class="w-full object-cover rounded" />
+                                <span class="absolute bottom-0 left-1/2 -translate-x-1/2 transform text-white pb-2 bg-black/60 px-2 rounded text-md">Giải thưởng 2</span>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide flex gap-4">
+                            <div class="w-1/2 relative">
+                                <img src="./image/Không%20có%20tiêu%20đề.jpg" class="w-full object-cover rounded" />
+                                <span class="absolute bottom-0 left-1/2 -translate-x-1/2 transform text-white pb-2 bg-black/60 px-2 rounded text-md">Chứng chỉ 1</span>
+                            </div>
+                            <div class="w-1/2 relative">
+                                <img src="./image/Không%20có%20tiêu%20đề.jpg" class="w-full object-cover rounded" />
+                                <span class="absolute bottom-0 left-1/2 -translate-x-1/2 transform text-white pb-2 bg-black/60 px-2 rounded text-md">Chứng chỉ 2</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Nút điều hướng -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <div class="slide_chung_chi_giai_thuong p-6 rounded-lg md:col-span-5 bg-gradient-to-r from-blue-200 from-orange-100 transition duration-300 hover:shadow-2xl hover:-translate-y-1 ">
+                <div class="w-full m-auto">
+                    <h2 class="text-xl font-bold text-orange-custom mb-6 bg-yellow-200 px-3 py-1 rounded inline-block"> HÌNH ẢNH GIẢI THƯỞNG</h2>
+                </div>
+                <div class="swiper mySwiper w-full">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide flex gap-4">
+                            <div class="w-1/2 relative">
+                                <img src="./image/Không%20có%20tiêu%20đề.jpg" class="w-full object-cover rounded" />
+                                <span class="absolute bottom-0 left-1/2 -translate-x-1/2 transform text-white pb-2 bg-black/60 px-2 rounded text-md">Giải thưởng 1</span>
+                            </div>
+                            <div class="w-1/2 relative">
+                                <img src="./image/Không%20có%20tiêu%20đề.jpg" class="w-full object-cover rounded" />
+                                <span class="absolute bottom-0 left-1/2 -translate-x-1/2 transform text-white pb-2 bg-black/60 px-2 rounded text-md">Giải thưởng 2</span>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide flex gap-4">
+                            <div class="w-1/2 relative">
+                                <img src="./image/Không%20có%20tiêu%20đề.jpg" class="w-full object-cover rounded" />
+                                <span class="absolute bottom-0 left-1/2 -translate-x-1/2 transform text-white pb-2 bg-black/60 px-2 rounded text-md">Chứng chỉ 1</span>
+                            </div>
+                            <div class="w-1/2 relative">
+                                <img src="./image/Không%20có%20tiêu%20đề.jpg" class="w-full object-cover rounded" />
+                                <span class="absolute bottom-0 left-1/2 -translate-x-1/2 transform text-white pb-2 bg-black/60 px-2 rounded text-md">Chứng chỉ 2</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Nút điều hướng -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <div class="p-6 rounded-lg md:col-span-5 bg-gradient-to-r from-blue-200 from-orange-100 transition duration-300 hover:shadow-2xl hover:-translate-y-1 ">
+                <div class="w-full m-auto">
+                    <h2 class="text-xl font-bold text-orange-custom mb-6 bg-yellow-200 px-3 py-1 rounded inline-block">HOẠT ĐỘNG NGOẠI KHÓA</h2>
+                </div>
+                <div class="w-full flex flex-wrap gap-y-4">
+                    <div class="w-full flex justify-between gap-4">
+                        <div class="w-1/2 relative">
+                            <img src="./image/Không%20có%20tiêu%20đề.jpg" class="w-full object-cover rounded" />
+                            <span class="absolute bottom-0 left-1/2 -translate-x-1/2 transform text-white pb-2 bg-black/60 px-2 rounded text-md">Chứng chỉ 2</span>
+                        </div>
+                        <div class="w-1/2 relative">
+                            <img src="./image/Không%20có%20tiêu%20đề.jpg" class="w-full object-cover rounded" />
+                            <span class="absolute bottom-0 left-1/2 -translate-x-1/2 transform text-white pb-2 bg-black/60 px-2 rounded text-md">Chứng chỉ 2</span>
+                        </div>
+                    </div>
+
+                    <div class="w-full flex justify-between gap-4">
+                        <div class="w-1/2 relative">
+                            <img src="./image/Không%20có%20tiêu%20đề.jpg" class="w-full object-cover rounded" />
+                            <span class="absolute bottom-0 left-1/2 -translate-x-1/2 transform text-white pb-2 bg-black/60 px-2 rounded text-md">Chứng chỉ 2</span>
+                        </div>
+                        <div class="w-1/2 relative">
+                            <img src="./image/Không%20có%20tiêu%20đề.jpg" class="w-full object-cover rounded" />
+                            <span class="absolute bottom-0 left-1/2 -translate-x-1/2 transform text-white pb-2 bg-black/60 px-2 rounded text-md">Chứng chỉ 2</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="bg-gray-100 p-4 text-center text-gray-600 text-sm rounded-b-lg">
+            <!-- <p>© topcv.vn</p> -->
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    const swiper = new Swiper(".mySwiper", {
+        loop: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+        },
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false
+        }
+    });
+</script>
